@@ -1,0 +1,124 @@
+.App {
+  text-align: center;
+  margin: 0;
+  padding: 0
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.header_container{
+  position: fixed;
+    background: aqua;
+    width: 100%;
+    height: 5%;
+    left: 0;
+}
+.header_container header{
+  float: left;
+}
+.cta_container{
+  position: fixed;
+    top: 7%;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    width: 100%;
+    height: 21%;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+/* .campaign_list_header{
+  width: 20%;
+    float: left;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    left: 0;
+} */
+.create_campaign{
+  right: 77%;
+    position: absolute;
+    border: 1px solid blue;
+    background: #8e8ec8;
+    width: 7%;
+    height: 27%;
+    cursor: pointer;
+}
+.campaign_list{
+  position: fixed;
+    top: 25%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+.campaign_list ul{
+  display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+.campaign_list ul li{
+  margin-right: 15px;
+}
+.creat_campaign_modal{
+  position: absolute;
+    top: 25%;
+    left: 21%;
+    width: 50%;
+    border: 1px solid grey;
+    height: 50%;
+    z-index: 100000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: gray;
+}
+.creat_campaign_modal label{
+  width: 20%;
+    padding-right: 11px;
+}
+.creat_campaign_modal input{
+  width: 60%;
+  height: 40%;
+}
+.owner_details ,.cmpaign_details{
+  height: 30%;
+}
+.owner_details input{
+  margin-left: 79px;
+}
+button{
+  height: 100%;
+    width: 50%;
+}
+.campainname span{
+  padding-left: 10px
+}
